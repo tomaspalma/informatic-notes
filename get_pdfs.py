@@ -10,8 +10,7 @@ def transform_md_into_pdf(curr_path):
     for child in curr_path.iterdir():
         if child.is_dir():
             transform_md_into_pdf(child);
-        else:
-            if(child.suffix == ".md"):
+        elif (child.suffix == ".md"):
                 convert_to_pdf(child);
     
 start_path = Path('.');

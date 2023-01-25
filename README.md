@@ -1,6 +1,6 @@
 # informatic-notes
 
-# Recourses
+# Resources
 
 - Linux Device Drivers book by 
 Jonathan Corbet, Alessandro
